@@ -51,22 +51,24 @@ export async function reserveStock(
     });
 }
 
-    export async function releaseStock(orderId: string) {
-        return prisma.$transaction(async (tx) => {
-            const order = await tx.order.findUnique({
-                where: { id: orderId },
-                include: { items: true },
-            });
-            if (!order) return null;
+export async function releaseStock(orderId: string, client?: typeof prisma) {
+    const run = async (tx: typeof prisma) => {
+        const order = await tx.order.findUnique({
+            where: { id: orderId },
+            include: { items: true },
+        });
+        if (!order) return null;
 
-            for (const item of order.items) {
-                await tx.$executeRaw`
+        for (const item of order.items) {
+            await tx.$executeRaw`
                 UPDATE "Product"
                 SET stock = stock + ${item.quantity}
                 WHERE id = ${item.productId}`;
-            }
+        }
 
-            return order;
-        });
-        
+        return order;
+    };
+
+    if (client) return run(client);
+    return prisma.$transaction((tx) => run(tx as unknown as typeof prisma));  
 }
