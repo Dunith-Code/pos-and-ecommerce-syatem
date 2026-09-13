@@ -1,0 +1,328 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="xUmZmzrYmbd1u6Yjwxf4">
+    <mxGraphModel dx="1566" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z3sR3cbmQI1s8OE2cWn--2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Frontend" vertex="1">
+          <mxGeometry height="1150" width="100" x="136" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="z3sR3cbmQI1s8OE2cWn--3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Order API" vertex="1">
+          <mxGeometry height="1150" width="100" x="340" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Mock Payment Gateway" vertex="1">
+          <mxGeometry height="1150" width="100" x="560" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Submit Checkout">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="39.700000000000045" y="107" as="sourcePoint" />
+            <mxPoint x="185.5" y="107" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Create order from cart">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="185.3888888888889" y="128.99999999999977" as="sourcePoint" />
+            <mxPoint x="389.5" y="128.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1150" width="20" x="30" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Begin transaction">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="389.3888888888889" y="147.99999999999977" as="sourcePoint" />
+            <mxPoint x="609.5" y="147.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Reserve stock for each item">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="389.3888888888889" y="174.99999999999977" as="sourcePoint" />
+            <mxPoint x="609.5" y="174.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-33" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="alt" vertex="1">
+          <mxGeometry height="534" width="610" x="160" y="616" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-34" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Payment Gateway" vertex="1">
+          <mxGeometry height="1150" width="100" x="700" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Rollback">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="389.3888888888889" y="654.9999999999998" as="sourcePoint" />
+            <mxPoint x="609.5" y="654.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-36" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Rejected (duplicate or invalid)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389.5" y="678.9999999999998" as="sourcePoint" />
+            <mxPoint x="185.3888888888889" y="678.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-37" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Rollback">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="389.3888888888889" y="719.9999999999998" as="sourcePoint" />
+            <mxPoint x="609.5" y="719.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-38" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Rejected (already paid)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389.5" y="747.9999999999998" as="sourcePoint" />
+            <mxPoint x="185.3888888888889" y="747.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-39" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Charge">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="389.3888888888889" y="795.9999999999998" as="sourcePoint" />
+            <mxPoint x="749.5" y="795.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-41" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="alt" vertex="1">
+          <mxGeometry height="297" width="460" x="170" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-40" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Success, Failed, Timeout">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749.5" y="820.9999999999998" as="sourcePoint" />
+            <mxPoint x="389.3888888888889" y="820.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-42" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Mark order paid">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="389.3888888888889" y="873.9999999999998" as="sourcePoint" />
+            <mxPoint x="609.5" y="873.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-43" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Record payment">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="389.3888888888889" y="897.9999999999998" as="sourcePoint" />
+            <mxPoint x="609.5" y="897.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-44" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Commit">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="389.3888888888889" y="918.9999999999998" as="sourcePoint" />
+            <mxPoint x="609.5" y="918.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-46" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="234" width="460" x="170" y="193" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-12" parent="qFUHe_w7dhc9dGGvGNqh-46" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="alt" vertex="1">
+          <mxGeometry height="233" width="460" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-15" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-46" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Stock reserved">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.5" y="32.99999999999977" as="sourcePoint" />
+            <mxPoint x="219.3888888888889" y="32.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-17" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-46" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Save order">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="219.3888888888889" y="59.99999999999977" as="sourcePoint" />
+            <mxPoint x="439.5" y="59.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-18" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-46" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Commit">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="219.3888888888889" y="85.99999999999977" as="sourcePoint" />
+            <mxPoint x="439.5" y="85.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-19" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-46" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Order created">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219.5" y="114.20000000000005" as="sourcePoint" />
+            <mxPoint x="15.388888888888914" y="114.20000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-21" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-46" source="qFUHe_w7dhc9dGGvGNqh-12" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.001;exitY=0.567;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="21.769999999999982" y="131.26600000000008" as="sourcePoint" />
+            <mxPoint x="460" y="129.91000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-22" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-46" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Insufficient stock">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.5" y="165.99999999999977" as="sourcePoint" />
+            <mxPoint x="219.3888888888889" y="165.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-23" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-46" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Rollback">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="219.3888888888889" y="191.99999999999977" as="sourcePoint" />
+            <mxPoint x="439.5" y="191.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-24" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-46" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Rejected">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219.5" y="215.99999999999977" as="sourcePoint" />
+            <mxPoint x="15.388888888888914" y="215.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-25" parent="qFUHe_w7dhc9dGGvGNqh-46" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;[every item in stock]&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="89" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-26" parent="qFUHe_w7dhc9dGGvGNqh-46" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;[any item short on stock]&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="150" x="20" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-47" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="103.99999999999977" width="570.5" x="39.5" y="494" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-28" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-47" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Pay">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint x="145.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-29" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-47" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Submit payment">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="145.8888888888889" y="27.999999999999773" as="sourcePoint" />
+            <mxPoint x="350" y="27.999999999999773" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-30" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-47" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Begin transaction">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="349.8888888888889" y="48.99999999999977" as="sourcePoint" />
+            <mxPoint x="570" y="48.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-31" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-47" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Lock order for update">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="349.8888888888889" y="78.00000000000023" as="sourcePoint" />
+            <mxPoint x="570.5" y="78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-32" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-47" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Order">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="103.99999999999977" as="sourcePoint" />
+            <mxPoint x="349.8888888888889" y="103.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-48" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.001;exitY=0.149;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.141;entryDx=0;entryDy=0;entryPerimeter=0;" target="qFUHe_w7dhc9dGGvGNqh-33" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160.61000000000013" y="691.566" as="sourcePoint" />
+            <mxPoint x="749.5" y="691.566" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-49" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.001;exitY=0.182;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.001;entryY=0.184;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="159.61000000000013" y="759.1879999999999" as="sourcePoint" />
+            <mxPoint x="769.6100000000001" y="760.2559999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-50" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Paid">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389.5" y="946.9999999999998" as="sourcePoint" />
+            <mxPoint x="185.3888888888889" y="946.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-51" edge="1" parent="1" source="qFUHe_w7dhc9dGGvGNqh-41" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=-0.001;exitY=0.403;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.466;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="172.29999999999995" y="958.402" as="sourcePoint" />
+            <mxPoint x="630.9200000000001" y="958.402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-52" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Mark order failed">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="389.3888888888889" y="984.9999999999998" as="sourcePoint" />
+            <mxPoint x="609.5" y="984.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-53" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Release stock">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="389.3888888888889" y="1006.9999999999998" as="sourcePoint" />
+            <mxPoint x="609.5" y="1006.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-54" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Record payment">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="389.3888888888889" y="1027.9999999999998" as="sourcePoint" />
+            <mxPoint x="609.5" y="1027.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-55" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Commit">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="389.3888888888889" y="1050.9999999999998" as="sourcePoint" />
+            <mxPoint x="609.5" y="1050.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-56" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Payment failed">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389.5" y="1077.9999999999998" as="sourcePoint" />
+            <mxPoint x="185.3888888888889" y="1077.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-57" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=-0.001;exitY=0.855;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="169.53999999999996" y="1086.9349999999997" as="sourcePoint" />
+            <mxPoint x="630" y="1086.93" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-58" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Commit">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="389.97368421052636" y="1106" as="sourcePoint" />
+            <mxPoint x="609.5000000000002" y="1106" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-59" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Awaiting expiry">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389.5" y="1125" as="sourcePoint" />
+            <mxPoint x="185.97368421052636" y="1125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;[order is not in a payable state&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="216" y="618" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;[order already paid]&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="160" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;[payable]&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="65" x="160" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;[success]&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="65" x="236" y="838" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;[failed]&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="54" x="171" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;[timeout]&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="54" x="174" y="1082" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-73" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="20" width="800" x="10" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-67" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-73" source="qFUHe_w7dhc9dGGvGNqh-70" style="shape=link;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint y="9" as="sourcePoint" />
+            <mxPoint x="800" y="9" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-71" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-73" style="shape=link;html=1;rounded=0;" target="qFUHe_w7dhc9dGGvGNqh-70" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint y="9" as="sourcePoint" />
+            <mxPoint x="800" y="9" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-70" parent="qFUHe_w7dhc9dGGvGNqh-73" style="rounded=0;whiteSpace=wrap;html=1;" value="Checkout: reserve stock for the cart" vertex="1">
+          <mxGeometry height="20" width="206" x="287" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-76" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="20" width="800" x="10" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-66" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-76" source="qFUHe_w7dhc9dGGvGNqh-74" style="shape=link;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint y="10" as="sourcePoint" />
+            <mxPoint x="800" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-75" edge="1" parent="qFUHe_w7dhc9dGGvGNqh-76" style="shape=link;html=1;rounded=0;" target="qFUHe_w7dhc9dGGvGNqh-74" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint y="10" as="sourcePoint" />
+            <mxPoint x="800" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-74" parent="qFUHe_w7dhc9dGGvGNqh-76" style="rounded=0;whiteSpace=wrap;html=1;" value="Payment: an order can never be charged twice" vertex="1">
+          <mxGeometry height="20" width="253" x="249" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

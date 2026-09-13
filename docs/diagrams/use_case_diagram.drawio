@@ -1,0 +1,91 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="JrvmvFw-WLq2SDIGt0K7">
+    <mxGraphModel dx="1018" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="460" width="640" x="160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Cashier/ POS Operator" vertex="1">
+          <mxGeometry height="60" width="30" x="60" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="System (Sheduler)" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Create Order from Cart" vertex="1">
+          <mxGeometry height="50" width="216" x="194" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Manage Products (CRUD)" vertex="1">
+          <mxGeometry height="50" width="216" x="194" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="View Stock Levels" vertex="1">
+          <mxGeometry height="50" width="216" x="194" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Expire Reservation" vertex="1">
+          <mxGeometry height="50" width="216" x="194" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Cancel Order" vertex="1">
+          <mxGeometry height="50" width="216" x="198" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Reserve Stock" vertex="1">
+          <mxGeometry height="50" width="216" x="570" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Process Mock Payment" vertex="1">
+          <mxGeometry height="50" width="216" x="194" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;POS Order &amp;amp; Inventory System&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="246" x="340" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-17" edge="1" parent="1" source="VA65RsbysUxFs2X8Z8ac-2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VA65RsbysUxFs2X8Z8ac-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-18" edge="1" parent="1" source="VA65RsbysUxFs2X8Z8ac-2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VA65RsbysUxFs2X8Z8ac-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-19" edge="1" parent="1" source="VA65RsbysUxFs2X8Z8ac-2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VA65RsbysUxFs2X8Z8ac-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-20" edge="1" parent="1" source="VA65RsbysUxFs2X8Z8ac-2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VA65RsbysUxFs2X8Z8ac-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-21" edge="1" parent="1" source="VA65RsbysUxFs2X8Z8ac-2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VA65RsbysUxFs2X8Z8ac-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-23" edge="1" parent="1" source="VA65RsbysUxFs2X8Z8ac-3" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VA65RsbysUxFs2X8Z8ac-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-24" edge="1" parent="1" source="VA65RsbysUxFs2X8Z8ac-6" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="VA65RsbysUxFs2X8Z8ac-14" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="300" as="sourcePoint" />
+            <mxPoint x="370" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VA65RsbysUxFs2X8Z8ac-25" edge="1" parent="1" source="VA65RsbysUxFs2X8Z8ac-12" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="VA65RsbysUxFs2X8Z8ac-14" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="300" as="sourcePoint" />
+            <mxPoint x="370" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

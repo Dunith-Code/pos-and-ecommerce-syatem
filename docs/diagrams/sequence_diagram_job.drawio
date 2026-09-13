@@ -1,0 +1,100 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="xUmZmzrYmbd1u6Yjwxf4">
+    <mxGraphModel dx="783" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z3sR3cbmQI1s8OE2cWn--2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Order Service" vertex="1">
+          <mxGeometry height="560" width="100" x="180" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z3sR3cbmQI1s8OE2cWn--3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Inventory Store" vertex="1">
+          <mxGeometry height="560" width="100" x="540" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="560" width="20" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-33" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="loop" vertex="1">
+          <mxGeometry height="270" width="480" x="160" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Expire reservation (only if still reserved)">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="229.32352941176464" y="256.0000000000002" as="sourcePoint" />
+            <mxPoint x="589.5" y="256.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-41" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="alt" vertex="1">
+          <mxGeometry height="191" width="460" x="170" y="279" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-50" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Expired">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589.5" y="317.0000000000002" as="sourcePoint" />
+            <mxPoint x="229.32352941176464" y="317.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-51" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=-0.001;exitY=0.403;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.999;entryY=0.403;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="169.53999999999996" y="390.97299999999996" as="sourcePoint" />
+            <mxPoint x="629.54" y="390.97299999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-52" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Release reserved stock">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="229.32352941176464" y="346.0000000000002" as="sourcePoint" />
+            <mxPoint x="589.5" y="346.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-53" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Record status change">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="229.32352941176464" y="375.0000000000002" as="sourcePoint" />
+            <mxPoint x="589.5" y="375.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-59" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="No change">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589.5" y="434.0000000000002" as="sourcePoint" />
+            <mxPoint x="229.32352941176464" y="434.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;[for each claimed order]&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="164" x="218" y="209" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;[order was still Reserved]&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="164" x="224" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="qFUHe_w7dhc9dGGvGNqh-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;order already handled]&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="150" x="165" y="389" as="geometry" />
+        </mxCell>
+        <mxCell id="1GOpWWnvWJVN29_2_XlX-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0.5;entryY=0.226;entryDx=0;entryDy=0;entryPerimeter=0;" value="Run expiry sweep">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="39.44736842105249" y="117.90000000000009" as="sourcePoint" />
+            <mxPoint x="230" y="117.90000000000009" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GOpWWnvWJVN29_2_XlX-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Begin transaction">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="229.4473684210525" y="141" as="sourcePoint" />
+            <mxPoint x="589.5" y="141" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GOpWWnvWJVN29_2_XlX-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="Claim expired reservations">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="229.4473684210525" y="165" as="sourcePoint" />
+            <mxPoint x="589.5" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GOpWWnvWJVN29_2_XlX-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Claimed orders">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589.5" y="191" as="sourcePoint" />
+            <mxPoint x="229.4473684210525" y="191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GOpWWnvWJVN29_2_XlX-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="commit">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="229.32352941176464" y="510.9999999999998" as="sourcePoint" />
+            <mxPoint x="589.5" y="510.99999999999955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
