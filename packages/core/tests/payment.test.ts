@@ -31,7 +31,7 @@ describe("payment processing", () => {
         return { product, order };
     }
 
-    it("SUCCESS: marks order PAID and clears reserveUntil", async () => {
+    it("SUCCESS: marks order PAID and clears reservedUntil", async () => {
         const { order } = await makeReservedOrder(1);
 
         const result = await processPayment(order.id, `pay-${order.id}`, "SUCCESS");
