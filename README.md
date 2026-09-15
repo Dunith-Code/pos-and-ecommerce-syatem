@@ -148,6 +148,7 @@ cp section-02/backend/.env.example section-02/backend/.env
 |---|---|---|
 | `DATABASE_URL` | `packages/core/.env`, both backend `.env` files | PostgreSQL connection string, e.g. `postgresql://user:pass@localhost:5432/pos_ecom?schema=public` |
 | `PORT` | Each backend `.env` | `4001` for section-01, `4002` for section-02 (only used when running standalone) |
+| `CORS_ORIGIN` | Each backend `.env` (production) | Comma-separated list of allowed frontend origins, e.g. `https://pos-ecommerce-section01.netlify.app,https://pos-ecommerce-section02.netlify.app` |
 | `VITE_API_URL` | Set in Netlify dashboard for each frontend | Base URL of the deployed backend (e.g. the Railway URL) |
  
 ### 3. Run database migrations
@@ -220,3 +221,11 @@ This creates a product with 5 units of stock and fires 20 simultaneous reservati
 - The mock payment gateway's SUCCESS/FAILED/TIMEOUT outcome can be forced explicitly via the `forcedOutcome` parameter (used by both UIs' "Simulate X" buttons) for deterministic testing, in addition to its default random-outcome behavior.
 
 ---
+
+## 🎥 Demo Walkthrough
+
+> Screen Recording: 
+
+---
+
+**Dunith Desitha Athukorala**
