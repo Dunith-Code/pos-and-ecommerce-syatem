@@ -16,7 +16,7 @@
  
 This project is a concurrency-safe order and payment platform built around a shared inventory core, split into two applications: a point-of-sale system for in-person, cashier-driven transactions, and an e-commerce storefront for online shoppers. Both handle the same underlying problem: reserving limited stock safely when many people might try to buy the same item at once, processing payments that can succeed, fail, or time out, and keeping every order's status consistent through cancellations and refunds. Rather than solving that problem twice, the core logic (stock reservation, payment handling, order lifecycle) lives in one shared package that both applications build on.
 
-**Repository:** `https://github.com/<your-username>/pos-and-ecommerce-system`
+**Repository:** `https://github.com/Dunith-Code/pos-and-ecommerce-system`
 
 ---
 
