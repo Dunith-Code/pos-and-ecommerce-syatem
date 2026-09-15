@@ -224,7 +224,7 @@ This creates a product with 5 units of stock and fires 20 simultaneous reservati
 
 ## 🎥 Demo Walkthrough
 
-> Screen Recording: 📹 Screen recording will be added here shortly.
+> Screen Walkthrough: [Screen walkthrough](https://drive.google.com/file/d/1fk1vHiz9ar_B5NGYI4MxX47fn_FXH7Qr/view?usp=drive_link)
 
 ---
 
