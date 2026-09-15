@@ -20,7 +20,7 @@ function App() {
           className="text-sm font-mono text-[var(--color-ink-muted)] cursor-pointer"
           onClick={() => setView({ name: "listing" })}
         >
-          SECTION 02 - E-COMMERCE CHECKOUT AND PAYMENT SYSTEM
+          E-COMMERCE CHECKOUT AND PAYMENT SYSTEM
         </h1>
         <nav className="flex gap-4">
           <button
