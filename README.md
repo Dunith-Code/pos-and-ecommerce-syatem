@@ -129,7 +129,7 @@ npm run core:test
 - A PostgreSQL database (local or hosted)
 ### 1. Clone and install
 ```bash
-git clone https://github.com/<your-username>/pos-and-ecommerce-system.git
+git clone https://github.com/Dunith-Code/pos-and-ecommerce-system.git
 cd pos-and-ecommerce-system
 npm install
 ```
