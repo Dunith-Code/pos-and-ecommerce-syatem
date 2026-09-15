@@ -24,7 +24,7 @@ This project is a concurrency-safe order and payment platform built around a sha
 
 ### Use Case Diagram
 
-![Use Case Diagram](docs\diagrams\use_case_diagram.drawio.png)
+![Use Case Diagram](docs/diagrams/use_case_diagram.drawio.png)
 
 ### Class Diagram
 
@@ -32,11 +32,11 @@ This project is a concurrency-safe order and payment platform built around a sha
 
 ### Order State Diagram
 
-![Order State Diagram](docs\diagrams\order_state_diagram.drawio.png)
+![Order State Diagram](docs/diagrams/order_state_diagram.drawio.png)
 
 ### Checkout Sequence Diagram
 
-![Checkout Sequence Diagram](docs\diagrams\sequence_diagram_checkout.drawio.png)
+![Checkout Sequence Diagram](docs/diagrams/sequence_diagram_checkout.drawio.png)
 
 ### Sequence Diagram (Reservation Expiry Job)
 
@@ -44,7 +44,7 @@ This project is a concurrency-safe order and payment platform built around a sha
 
 ### Deployment Diagram
 
-![Deployment Diagram](docs\diagrams\deployment_diagram.drawio.png)
+![Deployment Diagram](docs/diagrams/deployment_diagram.drawio.png)
 
 ---
 
