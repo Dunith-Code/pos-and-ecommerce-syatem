@@ -18,7 +18,7 @@ function App() {
     <div className="min-h-screen">
       <header className="border-b border-[var(--color-line)] px-6 py-4">
         <h1 className="text-sm font-mono text-[var(--color-ink-muted)]">
-          SECTION 01 - POS ORDER &amp; INVENTORY SYSTEM
+          POS ORDER &amp; INVENTORY SYSTEM
         </h1>
       </header>
 
